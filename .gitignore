@@ -1,0 +1,101 @@
+# CanvasAI .gitignore
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.production
+*.env
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-store
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+# Frontend Build
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+frontend/.cache/
+frontend/build/
+*.local
+
+# Backend Python
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/*.so
+backend/.Python
+backend/venv/
+backend/env/
+backend/ENV/
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+backend/*.egg-info/
+backend/dist/
+backend/build/
+
+# CDK
+infrastructure/node_modules/
+infrastructure/cdk.out/
+infrastructure/dist/
+infrastructure/*.js
+infrastructure/*.d.ts
+infrastructure/lib/*.js
+infrastructure/lib/*.d.ts
+infrastructure/bin/*.js
+infrastructure/bin/*.d.ts
+infrastructure/.cdk.staging/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Documentation build artifacts
+docs/_build/
+
+# AWS
+.aws-sam/
+
+# Secrets
+secrets.json
+credentials.json
+*.pem
+*.key
+
+# Temporary reference code
+temp-ui-reference/
